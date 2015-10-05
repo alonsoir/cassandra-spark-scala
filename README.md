@@ -6,7 +6,6 @@ a fork from https://github.com/koeninger/spark-cassandra-example, thank you Cody
 
 instead of using sbt, i am using maven and the latest versions of the libraries:
 
-<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.7</java.version>
 		<scala.version>2.11.2</scala.version>
@@ -18,7 +17,6 @@ instead of using sbt, i am using maven and the latest versions of the libraries:
 		<junit.version>4.11</junit.version>
 		<scalacheck.version>1.11.4</scalacheck.version>
 		<scalatest.version>2.2.0</scalatest.version>
-</properties>
 
 To run every sample in eclipse, just Right click, Run as, scala application.
 
