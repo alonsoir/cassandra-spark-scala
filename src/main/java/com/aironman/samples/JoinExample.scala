@@ -8,6 +8,8 @@ import com.datastax.spark.connector._
 /** Simple example of joining 2 cassandra tables.  Note that this will incur shuffles, and isn't necessarily efficient */
 object JoinExample {
   def main(args: Array[String]): Unit = {
+    // only setting app name, all other properties will be specified at runtime for flexibility
+    //to test in local mode, just decomment setMaster and the cassandra host ip
     val conf = new SparkConf().setAppName("cassandra-example-join")
                               .setMaster("local[4]")
                               .set("spark.cassandra.connection.host", "127.0.0.1")
