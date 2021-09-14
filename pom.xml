@@ -11,7 +11,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.7</java.version>
-		<scala.version>2.11.2</scala.version>
+		<scala.version>2.13.6</scala.version>
 		<scala.version.tools>2.11</scala.version.tools>
 		<spark-cassandra-connector_2.11.version>1.5.0-M1</spark-cassandra-connector_2.11.version>
 		<spark-cassandra-connector-java_2.11.version>1.5.0-M1</spark-cassandra-connector-java_2.11.version>
